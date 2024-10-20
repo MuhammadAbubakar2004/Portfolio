@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 20px;
+  justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 100vh; Full viewport height */
+}
+
+/* CV Container */
+.cv {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #343a40;
+}
+
+header p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  color: #495057;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .cv {
+      padding: 20px;
+  }
+
+  header h1 {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-size: 1.4em;
+  }
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out info and image */
+  align-items: center; /* Vertically align content */
+  padding: 20px; /* Add some padding */
+}
+
+/* .info { */
+  /* Style your contact information as needed */
+/* } */
+
+/* .image { */
+  /* Style your image as needed */
+/* } */
