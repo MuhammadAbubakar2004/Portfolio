@@ -11,7 +11,6 @@ const Header = () => {
         <p>LinkedIn: linkedin.com/in/yourprofile</p>
       </div>
       <div className="image">
-        {/* Replace with your image */}
         <img src={MyProfileImage} alt="Profile" />
       </div>
     </header>
